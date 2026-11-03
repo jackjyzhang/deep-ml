@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T15:54:56.355Z",
+  "generated_at": "2026-11-03T16:13:49.108Z",
   "items": {
     "problem:381": {
       "kind": "problem",
@@ -23,9 +23,9 @@
       "url": "https://www.deep-ml.com/problems/383",
       "path": "problems/0383-top-p-nucleus-sampling",
       "first_solved_at": "2026-11-03T15:54:55.565Z",
-      "last_pushed_at": "2026-11-03T15:54:55.565Z",
+      "last_pushed_at": "2026-11-03T16:13:48.452Z",
       "language": "python",
-      "lines": 43
+      "lines": 45
     }
   }
 }

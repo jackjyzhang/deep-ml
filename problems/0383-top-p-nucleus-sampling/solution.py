@@ -18,7 +18,9 @@ def top_p_sampling(logits: list[float], p: float) -> torch.Tensor:
     cump = torch.cumsum(sorted_probs, dim=-1)
     to_mask = torch.zeros_like(indices).bool()
     to_mask[1:] = cump[:-1] >= p
-    logits[indices[to_mask]] = -torch.inf
+    # logits[indices[to_mask]] = -torch.inf
+    orig_mask = torch.zeros_like(to_mask).scatter_(-1, indices, to_mask)
+    logits[orig_mask] = -torch.inf
     return torch.softmax(logits, dim=-1)
 
 
