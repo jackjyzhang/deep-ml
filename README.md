@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**1** solved · 1 problems · 0 labs · 0 math
+**2** solved · 2 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -13,6 +13,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
 | [Rotary Positional Embeddings (RoPE)](https://www.deep-ml.com/problems/381) | medium | 2026-11-03 | [solution](problems/0381-rotary-positional-embeddings-rope) |
+| [Top-p (Nucleus) Sampling](https://www.deep-ml.com/problems/383) | medium | 2026-11-03 | [solution](problems/0383-top-p-nucleus-sampling) |
 
 ---
 
